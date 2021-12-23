@@ -2,7 +2,9 @@
   "name": "root",
   "private": true,
   "scripts": {
-    "publish": "lerna run tsc && lerna publish"
+    "publish": "lerna run tsc && lerna publish",
+    "ts":"lerna run tsc ",
+    "node": "node ./packages/nodeserver/lib/nodeserver.js"
   },
   "devDependencies": {
     "lerna": "^4.0.0"
@@ -11,7 +13,9 @@
     "packages/*",
     "packages/basicprojone/*",
     "packages/basicprojtwo/*",
-    "packages/basicprojthree/*"
+    "packages/basicprojthree/*",
+    "packages/basicprojfour/*",
+    "packages/nodeserver/*"
   ],
   "dependencies": {
     "@types/node": "^17.0.0",

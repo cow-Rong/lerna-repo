@@ -1,0 +1,34 @@
+{
+  "name": "nodeserver",
+  "version": "0.0.1",
+  "description": "Now I’m the model of a modern major general / The venerated Virginian veteran whose men are all / Lining up, to put me up on a pedestal / Writin’ letters to relatives / Embellishin’ my elegance and eloquence / But the elephant is in the room / The truth is in ya face when ya hear the British cannons go / BOOM",
+  "keywords": [],
+  "author": "867197659@qq.com <867197659@qq.com>",
+  "license": "ISC",
+  "main": "lib/nodeserver.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cow-Rong/lerna-repo.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc"
+  },
+  "bugs": {
+    "url": "https://github.com/cow-Rong/lerna-repo/issues"
+  },
+  "homepage": "https://github.com/cow-Rong/lerna-repo#readme",
+  "dependencies": {
+    "jwt-simple": "^0.5.6",
+    "koa": "^2.13.4",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^10.1.1"
+  }
+}
