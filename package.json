@@ -15,6 +15,7 @@
     "packages/basicprojtwo/*",
     "packages/basicprojthree/*",
     "packages/basicprojfour/*",
+    "packages/basicprojfive/*",
     "packages/nodeserver/*"
   ],
   "dependencies": {
